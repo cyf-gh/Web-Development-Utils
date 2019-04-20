@@ -4,6 +4,7 @@
 ## 概览
 
 * [Json2Form](#json2form)
+* [raw](#raw)
 
 ## Json2Form
 根据Json数据生成表单等文本
@@ -36,6 +37,7 @@ $$$$:['', Validators.required],
 ```
 
 *.j2f.raw.wrapper
+
 ```
 this.formModel = this.fb.group ( {
   %%%%%%%
@@ -56,3 +58,12 @@ description:['', Validators.required],
 type:['', Validators.required],
 } );
 ```
+
+
+
+## raw
+
+储存网络开发或是相关的一些文件。
+
+* sh.json - host文件备份
+
